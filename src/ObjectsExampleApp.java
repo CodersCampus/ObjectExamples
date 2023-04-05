@@ -31,6 +31,9 @@ public class ObjectsExampleApp {
 		amdRyzen9.diskType = "HDD";
 		amdRyzen9.ram = 16;
 		System.out.println(amdRyzen9);
+		
+		Computer unusedComputer = new Computer();
+		System.out.println(unusedComputer);
 	}
 
 }
