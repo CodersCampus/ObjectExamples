@@ -13,7 +13,7 @@ public class ObjectsExampleApp {
 		coreI5.cpuType = "Intel Core i5";
 		coreI5.diskSpace = 500;
 		coreI5.diskType = "SSD";
-		coreI5.ram = 16;
+		coreI5.ram = 8;
 		System.out.println(coreI5);
 		
 		Computer coreI7 = new Computer();
@@ -21,7 +21,7 @@ public class ObjectsExampleApp {
 		coreI7.cpuType = "Intel Core i7";
 		coreI7.diskSpace = 500;
 		coreI7.diskType = "SSD";
-		coreI7.ram = 32;
+		coreI7.ram = 16;
 		System.out.println(coreI7);
 		
 		Computer amdRyzen9 = new Computer();
@@ -29,7 +29,7 @@ public class ObjectsExampleApp {
 		amdRyzen9.cpuType = "AMD Ryzen 9";
 		amdRyzen9.diskSpace = 5000;
 		amdRyzen9.diskType = "HDD";
-		amdRyzen9.ram = 32;
+		amdRyzen9.ram = 16;
 		System.out.println(amdRyzen9);
 	}
 
