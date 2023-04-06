@@ -1,12 +1,18 @@
 
 public class Computer {
-
-	Integer ram;
-	Integer diskSpace;
-	String diskType;
-	String cpuType;
-	Double cpuSpeed;
 	
+	// Visibility modifiers are:
+	// 1. public     (most open / visible)
+	// 2. protected
+	// 3. package
+	// 4. private    (least open / visible)
+	
+	private Integer ram;
+	private Integer diskSpace;
+	private String diskType;
+	private String cpuType;
+	private Double cpuSpeed;
+
 	public Computer () {
 		// This is the Computer class's NO ARGUMENT constructor
 		System.out.println("We are instantiating a new Computer object via the NO arg constructor!");
