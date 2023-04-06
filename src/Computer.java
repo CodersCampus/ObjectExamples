@@ -13,6 +13,14 @@ public class Computer {
 	private String cpuType;
 	private Double cpuSpeed;
 
+	public Integer getDiskSpace () {
+		return this.diskSpace;
+	}
+	
+	public void setDiskSpace (Integer newDiskSpaceValue) {
+		this.diskSpace = newDiskSpaceValue;
+	}
+	
 	public Computer () {
 		// This is the Computer class's NO ARGUMENT constructor
 		System.out.println("We are instantiating a new Computer object via the NO arg constructor!");
@@ -35,6 +43,8 @@ public class Computer {
 		this.cpuType = cpuType;
 		this.cpuSpeed = cpuSpeed;
 	}
+	
+	
 	
 	public String toString() {
         return "CPU Type: " + cpuType + 

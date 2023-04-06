@@ -8,18 +8,14 @@ public class ObjectsExampleApp {
 		// 2. Variable name
 		// 3. the new keyword with a Constructor
 		
-		Computer coreI5 = new Computer(8, 500, "SSD", "Intel Core i5", 2.9);		
+		Computer coreI5 = new Computer(8, 500, "SSD", "Intel Core i5", 2.9);
+		System.out.println(coreI5.getDiskSpace());
 		System.out.println(coreI5);
 		
 		Computer coreI7 = new Computer(16, 500, "SSD", "Intel Core i7", 3.2);
 		System.out.println(coreI7);
 		
 		Computer amdRyzen9 = new Computer(16, 5000, "HDD", "AMD Ryzen 9", 3.6);
-//		amdRyzen9.cpuSpeed = 3.6;
-//		amdRyzen9.cpuType = "AMD Ryzen 9";
-//		amdRyzen9.diskSpace = 5000;
-//		amdRyzen9.diskType = "HDD";
-//		amdRyzen9.ram = 16;
 		System.out.println(amdRyzen9);
 		
 		Computer unusedComputer = new Computer();
