@@ -80,8 +80,6 @@ public class Computer {
 		this.cpuSpeed = cpuSpeed;
 	}
 	
-	
-	
 	public String toString() {
         return "CPU Type: " + cpuType + 
         		", CPU Speed: " + cpuSpeed + "GHz" + 
