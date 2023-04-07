@@ -18,9 +18,45 @@ public class Computer {
 	}
 	
 	public void setDiskSpace (Integer newDiskSpaceValue) {
-		this.diskSpace = newDiskSpaceValue;
+		if (newDiskSpaceValue != null) {
+			if (newDiskSpaceValue > 0 && newDiskSpaceValue < Integer.MAX_VALUE) {
+				this.diskSpace = newDiskSpaceValue;			
+			}			
+		}
 	}
 	
+	public Integer getRam() {
+		return ram;
+	}
+
+	public void setRam(Integer ram) {
+		this.ram = ram;
+	}
+
+	public String getDiskType() {
+		return diskType;
+	}
+
+	public void setDiskType(String diskType) {
+		this.diskType = diskType;
+	}
+
+	public String getCpuType() {
+		return cpuType;
+	}
+
+	public void setCpuType(String cpuType) {
+		this.cpuType = cpuType;
+	}
+
+	public Double getCpuSpeed() {
+		return cpuSpeed;
+	}
+
+	public void setCpuSpeed(Double cpuSpeed) {
+		this.cpuSpeed = cpuSpeed;
+	}
+
 	public Computer () {
 		// This is the Computer class's NO ARGUMENT constructor
 		System.out.println("We are instantiating a new Computer object via the NO arg constructor!");

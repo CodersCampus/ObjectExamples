@@ -9,6 +9,7 @@ public class ObjectsExampleApp {
 		// 3. the new keyword with a Constructor
 		
 		Computer coreI5 = new Computer(8, 500, "SSD", "Intel Core i5", 2.9);
+		coreI5.setDiskSpace(50);
 		System.out.println(coreI5.getDiskSpace());
 		System.out.println(coreI5);
 		
